@@ -1,4 +1,3 @@
-<!--suppress ALL -->
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
@@ -9,12 +8,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import { store } from "../../store";
-console.log(store);
-const data = ref({});
-
-const title = ref("你好2");
+import { ref } from 'vue'
+const title = ref('Hello')
 </script>
 
 <style>
@@ -40,10 +35,7 @@ const title = ref("你好2");
 }
 
 .title {
-  color: #8f8f94;
-}
-
-.title {
   font-size: 36rpx;
+  color: #8f8f94;
 }
 </style>

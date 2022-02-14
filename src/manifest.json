@@ -1,8 +1,7 @@
-
 {
-    "name" : "gb_partner_web_w7",
-    "appid" : "__UNI__957A599",
-    "description" : "绿鸟服务商助手",
+    "name" : "",
+    "appid" : "",
+    "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
@@ -66,38 +65,8 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics" : {
-        "enable" : false
+    "uniStatistics": {  
+        "enable": false
     },
-    "vueVersion" : "3",
-    "h5" : {
-        "title" : "gb_partner_web_w7",
-        "router" : {
-            "mode" : "history",
-            "base" : ""
-        },
-        "devServer" : {
-            // "disableHostCheck" : true, //禁止访问本地host文件 ( 个人建议注释掉这一行，不然很有可能会请求不到 )
-            // "https" : true,
-             "port" : 7778,
-            "proxy" : {
-                "/web" : {
-                    "target" : "http://demo.e-7.club", //这里使用后端服务器的地址
-                    "changeOrigin" : true, //是否跨域
-                    "secure" : true, // 是否支持 https 协议的代理
-                    "pathRewrite" : {
-                        "^/web" : "/web"
-                    }
-                }
-            }
-        },
-        "sdkConfigs" : {
-            "maps" : {}
-        },
-        "optimization" : {
-            "treeShaking" : {
-                "enable" : false
-            }
-        }
-    }
+    "vueVersion" : "3"
 }
