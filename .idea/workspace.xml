@@ -1,8 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c9b7aa5-205d-4ea5-a750-5fee5a97bd6a" name="变更" comment="添加vant组件库">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.hbuilderx/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/order/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/registerWxApp/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/system/diy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/system/swiper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/user/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/util/area.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/util/upload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/http/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/http/type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/is/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/login/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/request/interface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/store/action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/store/getter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/store/modules/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/store/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/vant/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/weixin/sdk/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/weixin/sdk/type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/about.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/componnts/diy-nav-bar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/componnts/fab/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/componnts/steps/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/componnts/webView/webView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerAliPay/registerAliPay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxApp/registerWxPay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/index2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/index3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/index4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/settlement_info.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registerWxPay/types/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user/user.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icon/user_center.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/img/wxinfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/img/wxinfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/tabBar/home-fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/tabBar/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/tabBar/integral-fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/tabBar/integral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/tabBar/user-fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/tabBar/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-less/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-less/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-less/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-less/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-less/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-action-sheet/t-action-sheet.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-back-top/t-back-top.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-banner/t-banner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-breadcrumbs/t-breadcrumbs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-btn/t-btn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-card-action/t-card-action.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-card-body/t-card-body.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-card-title/t-card-title.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-card/t-card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-cell-group/t-cell-group.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-cell/t-cell.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-checkbox-group/t-checkbox-group.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-checkbox/t-checkbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-col/t-col.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-collapse-item/t-collapse-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-collapse/t-collapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-dialog/t-dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-divider/t-divider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-dropdown-menu/t-dropdown-menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-field/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-field/t-field.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-form/t-form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-grid-item/t-grid-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-grid/t-grid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-icon/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-icon/t-icon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-img/t-img.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-input/t-input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-link/t-link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-menu-item/t-menu-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-menu/t-menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-nav-bar/t-nav-bar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-notice-bar/t-notice-bar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-notify/t-notify.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-number-key-board/t-number-key-board.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-overlay/t-overlay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-pagination/t-pagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-password-input/t-password-input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-pendant-item/t-pendant-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-pendant/t-pendant.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-popup/t-popup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-radio-group/t-radio-group.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-radio/t-radio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-row/t-row.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-search/t-search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-slider/t-slider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-step/t-step.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-stepper/t-stepper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-steps/t-steps.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-sub-menu/t-sub-menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-switch/t-switch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-tag/t-tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/t-textarea/t-textarea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/components/tob-ui/tob-ui.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/VModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/emits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/flex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/rounded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/shadow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/design/size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/hack/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/hack/computed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/hack/methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/hack/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/tool.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/tools/cached.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/tools/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/tools/nanoid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/tools/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/core/tools/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_modules/tob-ui/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gb_partner_mobile_w7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gb_partner_mobile_w7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+    <option name="SCHEME" value="项目" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="liushaofan &lt;50491609@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="256HcwoU4jCkhCzI9Ia5OlQdgng" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\uniapp\gb_partner_mobile_w7\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="E:\uniapp\gb_partner_mobile\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\uniapp\gb_partner_mobile\src\common\weixin\sdk" />
+      <recent name="E:\uniapp\gb_partner_mobile\src\uni_modules" />
+      <recent name="E:\uniapp\gb_partner_mobile\src\common" />
+      <recent name="E:\uniapp\gb_partner_mobile\src" />
+      <recent name="E:\uniapp\gb_partner_mobile_w7\src\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\uniapp\gb_partner_mobile\src\wxcomponents" />
+      <recent name="E:\uniapp\gb_partner_mobile\src\common\weixin\sdk" />
+      <recent name="E:\uniapp\gb_partner_mobile\src\uni_modules\jweixin-module" />
+      <recent name="E:\uniapp\gb_partner_mobile_w7\src\static\icon" />
+      <recent name="E:\uniapp\gb_partner_mobile_w7\src\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev:mp-weixin">
+    <configuration name="build:h5" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:h5" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:h5" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:h5" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="pnpm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:mp-weixin" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:mp-weixin" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="pnpm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build:h5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8c9b7aa5-205d-4ea5-a750-5fee5a97bd6a" name="变更" comment="" />
+      <created>1644840702258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644840702258</updated>
+      <workItem from="1644840703540" duration="12304000" />
+      <workItem from="1644895666721" duration="27560000" />
+      <workItem from="1644982747001" duration="20198000" />
+      <workItem from="1645020284087" duration="4393000" />
+      <workItem from="1645073627096" duration="3170000" />
+      <workItem from="1645077064822" duration="6634000" />
+      <workItem from="1645086402711" duration="5000" />
+      <workItem from="1645106847742" duration="4882000" />
+      <workItem from="1645149024622" duration="14429000" />
+      <workItem from="1645170055027" duration="59221000" />
+      <workItem from="1645321415852" duration="38921000" />
+      <workItem from="1645408359906" duration="20338000" />
+      <workItem from="1645493517326" duration="56342000" />
+      <workItem from="1646022522164" duration="1227000" />
+      <workItem from="1646796043122" duration="14000" />
+      <workItem from="1646796092487" duration="7375000" />
+      <workItem from="1646924547394" duration="79016000" />
+      <workItem from="1647164072183" duration="12461000" />
+      <workItem from="1647267403157" duration="19484000" />
+      <workItem from="1648226806592" duration="720000" />
+      <workItem from="1648572705269" duration="27050000" />
+      <workItem from="1649040908624" duration="4249000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化vue3+vite+ts">
+      <created>1644840885870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644840885870</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加vant组件库">
+      <created>1649108310036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649108310036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/env.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化vue3+vite+ts" />
+    <MESSAGE value="添加vant组件库" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加vant组件库" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

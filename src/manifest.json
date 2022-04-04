@@ -1,6 +1,6 @@
 {
-    "name" : "",
-    "appid" : "",
+    "name" : "服务商助手",
+    "appid" : "__UNI__7308D91",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx1750b18bf6f25c0f",
         "setting" : {
             "urlCheck" : false
         },
@@ -65,8 +65,26 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics": {  
-        "enable": false
+    "uniStatistics" : {
+        "enable" : false
     },
-    "vueVersion" : "3"
+    "vueVersion" : "3",
+    "h5" : {
+        "devServer" : {
+            "https" : false,
+            "port" : 7778
+        },
+
+        "sdkConfigs" : {
+            "maps" : {}
+        },
+        "template" : "",
+        "router" : {
+            "base" : "",
+            "mode" : "history"
+        },
+        "title" : "服务商助手"
+    }
 }
+
+

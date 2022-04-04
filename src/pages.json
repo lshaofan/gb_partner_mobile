@@ -1,16 +1,184 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        },
+        "usingComponents": {
+          "van-button": "/wxcomponents/vant/button/index"
+        }
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": true,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "关于",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerWxPay/index",
+      "style": {
+        "navigationBarTitleText": "主体信息",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerWxPay/index2",
+      "style": {
+        "navigationBarTitleText": "经营信息",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerWxPay/index3",
+      "style": {
+        "navigationBarTitleText": "结算信息",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerWxPay/index4",
+      "style": {
+        "navigationBarTitleText": "补充材料",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerWxPay/info",
+      "style": {
+        "navigationBarTitleText": "申请须知",
+        "h5": {
+          "backgroundTextStyle": "light",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerWxApp/registerWxPay",
+      "style": {
+
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "backgroundTextStyle": "light",
+          "enablePullDownRefresh": "true",
+          "autoBackButton": true
+        }
+      }
+    },
+    {
+      "path": "pages/registerAliPay/registerAliPay",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+      ,{
+            "path" : "pages/index/about/about",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
+        }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "服务商助手",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents":{
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-icon": "/wxcomponents/vant/icon/index",
+      "van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+      "van-skeleton": "/wxcomponents/vant/skeleton/index"
+    }
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#2979ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/tabBar/home.png",
+        "selectedIconPath": "./static/tabBar/home-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "./static/tabBar/integral.png",
+        "selectedIconPath": "./static/tabBar/integral-fill.png",
+        "text": "控制台"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./static/tabBar/user.png",
+        "selectedIconPath": "./static/tabBar/user-fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^t-(.*)": "@/uni_modules/tob-ui/components/t-$1/t-$1.vue",
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "condition" : {
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "",
+				"query": ""
 			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		]
 	}
 }
