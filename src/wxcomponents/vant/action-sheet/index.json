@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

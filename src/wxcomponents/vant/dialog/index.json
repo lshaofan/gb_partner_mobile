@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-goods-action": "/wxcomponents/vant/goods-action/index",
+    "van-goods-action-button": "/wxcomponents/vant/goods-action-button/index"
+  }
+}

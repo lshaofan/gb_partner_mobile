@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index"
+  }
+}

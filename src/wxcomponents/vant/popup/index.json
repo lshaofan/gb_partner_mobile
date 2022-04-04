@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-overlay": "/wxcomponents/vant/overlay/index"
+  }
+}

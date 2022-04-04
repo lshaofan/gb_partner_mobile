@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-info": "/wxcomponents/vant/info/index",
+    "van-sticky": "/wxcomponents/vant/sticky/index"
+  }
+}

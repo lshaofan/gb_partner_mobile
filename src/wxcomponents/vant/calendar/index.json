@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "header": "/wxcomponents/vant/calendar/components/header/index",
+    "month": "/wxcomponents/vant/calendar/components/month/index",
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-toast": "/wxcomponents/vant/toast/index"
+  }
+}

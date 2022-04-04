@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-sidebar": "/wxcomponents/vant/sidebar/index",
+    "van-sidebar-item": "/wxcomponents/vant/sidebar-item/index"
+  }
+}
