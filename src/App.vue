@@ -13,6 +13,7 @@
     window.sessionStorage.setItem('wxSdkConfig', JSON.stringify(store.getters.WxSdkConfig));
   };
   onShow(async () => {
+    console.log(store.getters.isLogin);
     if (!store.getters.isLogin) {
       await login();
     }
